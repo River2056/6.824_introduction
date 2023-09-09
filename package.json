@@ -1,0 +1,19 @@
+{
+  "name": "6.824_introduction",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/fxemoji": "^1.1.5",
+    "@iconify-json/material-symbols": "^1.1.58",
+    "@iconify-json/uil": "^1.1.5"
+  }
+}
