@@ -29,15 +29,15 @@ layout: default
 
 <div style="display: flex; justify-content: space-evenly;">
     <div>
-        <div v-click class="text-xl p-2 w-100">連接分散在各地的電腦 &nbsp; <fxemoji-threenetworkedcomputers/></div>
-        <ul v-click>
+        <div class="text-xl p-2 w-100">連接分散在各地的電腦 &nbsp; <fxemoji-threenetworkedcomputers/></div>
+        <ul>
             <li class="text-sm">達成"分享"</li>
             <li class="text-sm p-2">比如檔案分享, 直播串流等等</li>
         </ul>
     </div>
     <div>
-        <div v-click class="text-xl p-2 w-100">增加處理能力, 算力 &nbsp; <uil-processor/></div>
-        <ul v-click>
+        <div class="text-xl p-2 w-100">增加處理能力, 算力 &nbsp; <uil-processor/></div>
+        <ul>
             <li class="text-sm p-2">多台電腦並行處理(Parallelism), 分擔工作量, 提高效率</li>
         </ul>
     </div>
@@ -45,14 +45,14 @@ layout: default
 
 <div style="display: flex; justify-content: space-evenly;" class="mt-30">
     <div>
-        <div v-click class="text-xl p-2 w-100">故障容許度提升 &nbsp; <material-symbols-broken-image/></div>
-        <ul v-click>
+        <div class="text-xl p-2 w-100">故障容許度提升 &nbsp; <material-symbols-broken-image/></div>
+        <ul>
             <li class="text-sm p-2">不會因為一台伺服器故障導致服務中斷</li>
             <li class="text-sm p-2">工作量會由系統裡其他伺服器接手</li>
         </ul>
     </div>
     <div>
-        <div v-click class="text-xl p-2 w-100">提升系統安全性 &nbsp; <carbon-security/></div>
+        <div class="text-xl p-2 w-100">提升系統安全性 &nbsp; <carbon-security/></div>
     </div>
 </div>
 
@@ -83,12 +83,12 @@ transition: slide-down
 # Challenges
 
 <ol>
-    <li v-click>高並發</li>
-    <ul v-after class="pl-10">
+    <li>高併發</li>
+    <ul class="pl-10">
         <li>排查問題難度上升</li>
     </ul>
-    <li v-click>部分失效</li>
-    <ul v-after class="pl-10">
+    <li>部分失效</li>
+    <ul class="pl-10">
         <li>比如: 某幾區的伺服器掛掉但其他地區的正常</li>
         <li>server本身沒問題, 但network掛了</li>
     </ul>
