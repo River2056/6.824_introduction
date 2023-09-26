@@ -16,10 +16,11 @@ transition: slide-up
 
 # Index
 
-- brief introduction: what is distributed systems?
-- what's in the videos?
-- introduction: what's MapReduce?
-- golang exercise: crawler.go
+- Brief introduction: What is distributed systems?
+- What's in the videos?
+- Introduction: What's MapReduce?
+- Golang exercise: crawler.go
+- what's RPC?
 
 ---
 transition: slide-left
